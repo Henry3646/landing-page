@@ -159,10 +159,78 @@ body {
     display: flex;
     height: 450px;
     background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    height: 170px;
+    width: 60%;
+    font-size: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    color: #1F2937;
+}
+.quoteby {
+    display: flex;
+    font-size: 24px;
+    color: #1F2937;
+    width: 60%;
+    font-family: 'Roboto' , sans-serif;
+    font-style: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .middle .box3 {
     display: flex;
     height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueback {
+    display: flex;
+    width: 75%;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 550px;
+    color:#E5E7EB;
+    font-family: 'Roboto' , sans-serif;
+    gap: 5px;
+}
+
+.ctaText {
+    display: flex;
+    font-size: 24px;
+
+}
+
+.ctaDesc {
+    display: flex;
+    font-size: 14px;
+}
+
+.ctaButton {
+    background-color: #3882f6;
+    border: 2px solid #E5E7EB;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
 }
 
 .Footer {
@@ -177,4 +245,5 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Roboto' , sans-serif;
 }
